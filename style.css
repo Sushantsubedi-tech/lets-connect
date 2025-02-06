@@ -2,9 +2,40 @@
    margin:0%;
    padding:0%;
    box-sizing: border-box;
+   font-family: "Montserrat", serif;
+   color: white;
 }
 
 html,body{
    height: 100%;
    width: 100%;
+}
+.main{
+   height: 100%;
+   width: 100%;
+   background-color: black;
+}
+.elem{
+   height: 8rem;
+   border-bottom: 3px solid #fff;
+   font-size: 30px;
+   position: relative;
+   mix-blend-mode: difference;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.elem h1{
+z-index:2 ;
+mix-blend-mode: difference;
+}
+.elem img{
+   height: 100px;
+   width: 100px;
+   object-fit: cover;
+   object-position: center;
+   position: absolute;
+   transition: all linear 0.3s;
+   opacity: 0;
+   border-radius: 50%;
 }
